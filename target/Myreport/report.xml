@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="0.309">
+<testcase classname="understand datatable concept" name="create datatbles" time="0.082">
+<system-out><![CDATA[Given list of values........................................................passed
+When values are.............................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="understand datatable concept" name="create datatbles with maps" time="0.004">
+<system-out><![CDATA[Given list of values........................................................passed
+When values are with columns................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

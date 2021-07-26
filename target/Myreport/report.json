@@ -1,0 +1,162 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-14T06:51:04.967Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "myhooks.amazonHooks.setup()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "create datatbles",
+        "description": "",
+        "id": "understand-datatable-concept;create-datatbles",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "myhooks.amazonHooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "list of values",
+            "match": {
+              "location": "Stepdefinition.datatbleclass.list_of_values()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "values are",
+            "match": {
+              "location": "Stepdefinition.datatbleclass.values_are(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "srini",
+                  "srini@gmail",
+                  "890"
+                ]
+              },
+              {
+                "cells": [
+                  "vasan",
+                  "vasan@gmail",
+                  "433"
+                ]
+              }
+            ],
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-14T06:51:05.067Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "myhooks.amazonHooks.setup()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "create datatbles with maps",
+        "description": "",
+        "id": "understand-datatable-concept;create-datatbles-with-maps",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "myhooks.amazonHooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "list of values",
+            "match": {
+              "location": "Stepdefinition.datatbleclass.list_of_values()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "values are with columns",
+            "match": {
+              "location": "Stepdefinition.datatbleclass.values_are_with_columns(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "First",
+                  "email",
+                  "phone"
+                ]
+              },
+              {
+                "cells": [
+                  "srini",
+                  "srini@gmail",
+                  "890"
+                ]
+              },
+              {
+                "cells": [
+                  "vasan",
+                  "vasan@gmail",
+                  "433"
+                ]
+              }
+            ],
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "understand datatable concept",
+    "description": "",
+    "id": "understand-datatable-concept",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/AppFeatures/datatbl.feature",
+    "tags": []
+  }
+]
